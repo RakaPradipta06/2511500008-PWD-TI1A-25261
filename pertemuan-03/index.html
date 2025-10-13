@@ -71,7 +71,7 @@
             margin-bottom: 16px;
         }
 
-        #contact {
+        #contact .Nama {
             display: flex;
         }
 
@@ -110,15 +110,14 @@
     <section id="contact">
         <h2>Kontak Kami</h2>
         <form action="" method="GET">
-            <input type="Colour">
-            <label for="txtNama">Nama:</label>
-            <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
+            <label for="txtNama" class="Nama">Nama:</label>
+            <input type="text" id="txtNama" name="txtNama" class="Nama" placeholder="Masukkan nama" required autocomplete="name">
             
             <label for="txtEmail">Email:</label>
-            <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan Email" required autocomplete="email">
+            <input type="email" id="txtEmail" name="txtEmail" class="Nama" placeholder="Masukkan Email" required autocomplete="email">
             
-            <label for="txtPesan">Pesan:</label>
-            <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+            <label for="txtPesan" class="Nama">Pesan:</label>
+            <textarea id="txtPesan" name="txtPesan" class="Nama" rows="4" placeholder="Tulis pesan anda..." required></textarea>
             
             <button type="submit">Kirim</button>
             <button type="reset">Batal</button>
