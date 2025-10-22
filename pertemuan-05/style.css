@@ -34,7 +34,14 @@
             flex-shrink: 0;
         }
 
-        
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: #fff;
+            font-size: 28px;
+            cursor: pointer;
+        }
 
         @media (max-width: 600px) {
             #about p {
