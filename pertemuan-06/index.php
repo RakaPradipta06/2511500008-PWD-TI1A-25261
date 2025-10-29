@@ -34,7 +34,8 @@
     <section id="about">
         <?php
             $nim = "2511500008";
-            $NIM = "2511500029";
+            $Nama = "Raka Pradipta";
+            $nama = "Raka";
         ?>
         <h2>Tentang Saya</h2>
         <p><strong>NIM:</strong> 
@@ -42,7 +43,11 @@
                 echo $nim;        
             ?>
         </p>
-        <p><strong>Nama Lengkap:</strong> Raka Pradipta &#128526;</p>
+        <p><strong>Nama Lengkap:</strong>
+            <?php
+            echo $Nama;
+            ?>
+        </p>
         <p><strong>Tempat Lahir:</strong> Jebus</p>
         <p><strong>Tanggal Lahir:</strong> 06 Febuari 2005</p>
         <p><strong>Hobi:</strong> Futsal, Volly, dan Sepak Bola</p>
