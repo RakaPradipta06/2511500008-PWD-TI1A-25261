@@ -6,4 +6,5 @@ nim: 2511500008
 belajar:
 <ol>
 <li>hello.php</li>
+<li>index.php</li>
 </ol>
