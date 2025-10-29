@@ -32,8 +32,16 @@
         <p>Ini contoh paragraf HTML.</p>
     </section>
     <section id="about">
+        <?php
+            $nim = "2511500008";
+            $NIM = "2511500029";
+        ?>
         <h2>Tentang Saya</h2>
-        <p><strong>NIM:</strong> 2511500008</p>
+        <p><strong>NIM:</strong> 
+            <?php
+                echo $nim;        
+            ?>
+        </p>
         <p><strong>Nama Lengkap:</strong> Raka Pradipta &#128526;</p>
         <p><strong>Tempat Lahir:</strong> Jebus</p>
         <p><strong>Tanggal Lahir:</strong> 06 Febuari 2005</p>
