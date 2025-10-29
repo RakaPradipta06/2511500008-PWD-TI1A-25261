@@ -27,8 +27,6 @@
         <h2>Selamat Datang</h2>
         <?php
         echo "halo dunia!";
-        ?>
-        <?php
         echo "Perkenalkan nama saya Raka Pradipta"
         ?>
         <p>Ini contoh paragraf HTML.</p>
