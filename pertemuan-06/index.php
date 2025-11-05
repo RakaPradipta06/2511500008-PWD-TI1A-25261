@@ -34,8 +34,17 @@
     <section id="about">
         <?php
             $nim = "2511500008";
-            $Nama = "Raka Pradipta";
+            $Nama = "Raka Pradipta &#128526;";
             $nama = "Raka";
+            $TempatLahir = "Jebus";
+            $TanggalLahir = "06 Februari 2005";
+            $Hobi = "Futsal, Volly, dan Sepak Bola";
+            $Pasangan = "Rulita Rizqi Aprillia &hearts;";
+            $Pekerjaan = "Mahasiswa";
+            $NamaOrangTua = "Bapak Muhammad Dian Alifi dan Ibu Rusmi Hartati";
+            $NamaKakak = "Adityo Nurzi dan Dwi Adji Muzhaffar";
+            $NamaAdik = "-";
+
         ?>
         <h2>Tentang Saya</h2>
         <p><strong>NIM:</strong> 
@@ -45,17 +54,49 @@
         </p>
         <p><strong>Nama Lengkap:</strong>
             <?php
-            echo $Nama;
+                echo $Nama;
             ?>
         </p>
-        <p><strong>Tempat Lahir:</strong> Jebus</p>
-        <p><strong>Tanggal Lahir:</strong> 06 Febuari 2005</p>
-        <p><strong>Hobi:</strong> Futsal, Volly, dan Sepak Bola</p>
-        <p><strong>Pasangan:</strong> Rulita Rizqi Aprillia &hearts;</p>
-        <p><strong>Pekerjaan:</strong> Mahasiswa</p>
-        <p><strong>Nama Orang Tua:</strong> Bapak Muhammad Dian Alifi dan Ibu Rusmi Hartati</p>
-        <p><Strong>Nama Kakak:</Strong> Adityo Nurzi dan Dwi Adji Muzhaffar</p>
-        <p><strong>Nama Adik:</strong> -</p>
+        <p><strong>Tempat Lahir:</strong>
+            <?php
+                echo $TempatLahir;
+            ?>
+        </p>
+        <p><strong>Tanggal Lahir:</strong>
+            <?php
+                echo $TanggalLahir;
+            ?>
+        </p>
+        <p><strong>Hobi:</strong>
+            <?php
+                echo $Hobi;
+            ?>
+        </p>
+        <p><strong>Pasangan:</strong>
+            <?php
+                echo $Pasangan;
+            ?>
+        </p>
+        <p><strong>Pekerjaan:</strong>
+            <?php
+                echo $Pekerjaan;
+            ?>
+        </p>
+        <p><strong>Nama Orang Tua:</strong>
+            <?php
+                echo $NamaOrangTua;
+            ?>
+        </p>
+        <p><Strong>Nama Kakak:</Strong>
+            <?php
+                echo $NamaKakak;
+            ?>
+        </p>
+        <p><strong>Nama Adik:</strong>
+            <?php
+                echo $NamaAdik;
+            ?>
+        </p>
     </section>
     <section id="contact">
         <h2>Kontak Kami</h2>
@@ -73,6 +114,61 @@
             <button type="reset">Batal</button>
         </form>
     </section>
+    <section id="IPK">
+        <h2>Nilai saya</h2>
+        <?php
+        $namaMatkul1 = "Kalkulus";
+        $namaMatkul2 = "Logika Informatika";
+        $namaMatkul3 = "Pengantar Teknik Informatika";
+        $namaMatkul4 = "Aplikasi Perkantoran";
+        $namaMatkul5 = "Konsep Basis Data";
+
+        $sksMatkul1 = "3";
+        $sksMatkul2 = "3";
+        $sksMatkul3 = "3";
+        $sksMatkul4 = "3";
+        $sksMatkul5 = "3";
+
+        $nilaiHadir1 = "90";
+        $nilaiHadir2 = "100";
+        $nilaiHadir3 = "100";
+        $nilaiHadir4 = "80";
+        $nilaiHadir5 = "100";
+
+        $nilaiTugas1 = "90";
+        $nilaiTugas2 = "100";
+        $nilaiTugas3 = "100";
+        $nilaiTugas4 = "90";
+        $nilaiTugas5 = "80";
+
+        $nilaiUTS1 = "70";
+        $nilaiUTS2 = "80";
+        $nilaiUTS3 = "80";
+        $nilaiUTS4 = "90";
+        $nilaiUTS5 = "80";
+
+        $nilaiUAS1 = "80";
+        $nilaiUAS2 = "90";
+        $nilaiUAS3 = "90";
+        $nilaiUAS4 = "100";
+        $nilaiUAS5 = "90";
+
+        ?>
+
+        <?php
+    function grade($nilaiAkhir, $nilaHadir) {
+        if ($nilaiHadir < 70) {
+            $grade = "E";
+            $status = "GAGAL";
+            $angkaMutu = 0.00;
+        } elsief ($nilaiAkhir >= 91 && $nilaiAkhir <= 100) {
+            $grade = "A";
+            $status = "GAGAL";
+            $angkaMutu = 4.00;
+        }
+    }
+
+
 </main>
     <footer>
         <p>&copy; 2025 Raka Pradipta [2511500008]</p>
