@@ -98,24 +98,8 @@
             ?>
         </p>
     </section>
-    <section id="contact">
-        <h2>Kontak Kami</h2>
-        <form action="" method="GET">
-            <label for="txtNama"><span>Nama:</span>
-            <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
-            </label>
-            <label for="txtEmail"><span>Email:</span>
-            <input type="email" id="txtEmail" name="txtEmail"  placeholder="Masukkan Email" required autocomplete="email">
-            </label>
-            <label for="txtPesan"><span>Pesan Anda</span>
-            <textarea id="txtPesan" name="txtPesan"  rows="4" placeholder="Tulis pesan anda..." required></textarea>
-            </label>
-            <button type="submit">Kirim</button>
-            <button type="reset">Batal</button>
-        </form>
-    </section>
-    <section id="gpa">
-            <h2>My GPA</h2>
+    <section id="IPK">
+            <h2>IPK Saya</h2>
             <?php
             $namaMatkul1 = "Logika Informatika";
             $namaMatkul2 = "Pengantar Teknik Informatika";
@@ -205,7 +189,7 @@
             $grade2 = hitungGrade($nilaiHadir2, $nilaiAkhir2);
             $grade3 = hitungGrade($nilaiHadir3, $nilaiAkhir3);
             $grade4 = hitungGrade($nilaiHadir4, $nilaiAkhir4);
-            $grade5 = hitungGrade(hadir: $nilaiHadir5, akhir: $nilaiAkhir5); // nah ini dia variabel kayak $nilaiHadir1-5 disetore dalam satu variabel $hadir di dalam variabel $grade1-5
+            $grade5 = hitungGrade($nilaiHadir5, $nilaiAkhir5);  // nah ini dia variabel kayak $nilaiHadir1-5 disetore dalam satu variabel $hadir di dalam variabel $grade1-5
             // biar ngehitung dan nulis kode untuk ngehitungnya grade1-5 ga manual satu per satu. capek nulisnya :,)
             // kalo ga salah bisa disebut parameter named arguments
             $mutu1 = hitungMutu($grade1);
@@ -258,9 +242,23 @@
             echo "<h3>Total Credits: $totalSKS</h3>";
             echo "<br><h2>Cumulative GPA: " . number_format($IPK, 2) . "</h2>"; // nah ini buat pentotalannya pake number_format biar format desimalnya rapi dan terkostumisasi
             ?>
-    
-
-
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <form action="" method="GET">
+            <label for="txtNama"><span>Nama:</span>
+            <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
+            </label>
+            <label for="txtEmail"><span>Email:</span>
+            <input type="email" id="txtEmail" name="txtEmail"  placeholder="Masukkan Email" required autocomplete="email">
+            </label>
+            <label for="txtPesan"><span>Pesan Anda</span>
+            <textarea id="txtPesan" name="txtPesan"  rows="4" placeholder="Tulis pesan anda..." required></textarea>
+            </label>
+            <button type="submit">Kirim</button>
+            <button type="reset">Batal</button>
+        </form>
+    </section>
+   
 </main>
     <footer>
         <p>&copy; 2025 Raka Pradipta [2511500008]</p>
