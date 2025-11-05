@@ -240,7 +240,7 @@ body {
         }
 
         header li a:active {
-            background-color: #cc04a1;
+            background-color: #e8dee6;
             transform: translateY(1px);
         }
 
