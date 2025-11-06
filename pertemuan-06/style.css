@@ -194,7 +194,8 @@ body {
 
         #home,
         #about,
-        #contact {
+        #contact
+        #ipk {
             background-color: #ffffff;
             border-radius: 10px;
             padding: 20px;
@@ -205,7 +206,8 @@ body {
 
         #home h2,
         #about h2,
-        #contact h2 {
+        #contact h2,
+        #ipk h2 {
             color: #003366;
             border-bottom: 2px solid #003366;
             padding-bottom: 6px;
@@ -271,91 +273,9 @@ body {
             display: flex;
         }
 
-        /* style.css */
 
-/* Gaya dasar untuk body */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f9;
-    color: #333;
-    padding: 20px;
-}
 
-/* Gaya untuk kontainer utama IPK */
-#IPK {
-    max-width: 800px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 20px 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
 
-/* Judul utama */
-#IPK > h2 {
-    text-align: center;
-    color: #003366;
-    border-bottom: 3px solid #003366;
-    padding-bottom: 10px;
-    margin-bottom: 25px;
-}
-
-/* Judul Mata Kuliah */
-#IPK h3 {
-    color: #003366;
-    margin-top: 20px;
-    border-left: 5px solid #003366;
-    padding-left: 10px;
-    background-color: #e9f7ee;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border-radius: 0 4px 4px 0;
-}
-
-/* Paragraf data mata kuliah */
-#IPK p {
-    margin: 5px 0;
-    padding-left: 15px;
-    font-size: 15px;
-}
-
-/* Penekanan pada label data */
-#IPK p strong {
-    display: inline-block;
-    width: 120px; /* Lebar tetap untuk label */
-    color: #555;
-}
-
-/* Pemisah antar mata kuliah */
-#IPK br {
-    display: block;
-    content: " ";
-    margin-top: 15px;
-    border-bottom: 1px dashed #ccc;
-}
-
-/* Gaya untuk Total dan IPK */
-#IPK h3:last-of-type, /* Total Bobot */
-#IPK h3:nth-last-of-type(2) { /* Total SKS */
-    text-align: right;
-    color: #6c757d;
-    font-size: 1.1em;
-    padding-right: 15px;
-    border: none;
-    background-color: transparent;
-}
-
-/* Gaya spesifik untuk Nilai IPK Kumulatif */
-#IPK h2:last-of-type {
-    text-align: center;
-    color: #003366; /* Warna yang menonjol untuk hasil akhir */
-    font-size: 2em;
-    margin-top: 20px;
-    padding-top: 15px;
-    border-top: 2px solid #003366;
-    border-bottom: none;
-}
         
 
         
