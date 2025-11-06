@@ -107,11 +107,11 @@
             $namaMatkul4 = "Wawasan Budi Luhur ";
             $namaMatkul5 = "Aplikasi Perkantoran";
 
-            $sksMatkul1 = 3;
-            $sksMatkul2 = 3;
-            $sksMatkul3 = 3;
-            $sksMatkul4 = 3;
-            $sksMatkul5 = 3;
+            $sksMatkul1 = 4;
+            $sksMatkul2 = 4;
+            $sksMatkul3 = 4;
+            $sksMatkul4 = 4;
+            $sksMatkul5 = 4;
 
             $nilaiHadir1 = 100;
             $nilaiTugas1 = 85;
