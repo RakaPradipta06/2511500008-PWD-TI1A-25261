@@ -45,7 +45,7 @@ header li a:focus {
 }
 
 header li a:active {
-  background-color: #cc04a1;
+  background-color: #fefefe;
   transform: translateY(1px);
 }
 
