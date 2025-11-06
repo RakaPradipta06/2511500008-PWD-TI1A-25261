@@ -273,6 +273,27 @@ body {
         }
 
         #IPK {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 700px;
+            margin: 20px auto;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+    
+        #IPK h2
+        #IPK h3 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 6px;
+            margin-top: 0;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+
+        
+        #IPK {
            background-color: rgb(252, 250, 251); 
            border-radius: 10px;
            padding: 20px;
