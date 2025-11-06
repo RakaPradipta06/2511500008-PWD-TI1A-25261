@@ -98,6 +98,7 @@
             ?>
         </p>
     </section>
+    
     <section id="IPK">
             <h2>IPK Saya</h2>
             <?php
@@ -242,7 +243,8 @@
             echo "<h3>Total Credits: $totalSKS</h3>";
             echo "<br><h2>Cumulative GPA: " . number_format($IPK, 2) . "</h2>"; // nah ini buat pentotalannya pake number_format biar format desimalnya rapi dan terkostumisasi
             ?>
-    <section id="contact">
+   
+   <section id="contact">
         <h2>Kontak Kami</h2>
         <form action="" method="GET">
             <label for="txtNama"><span>Nama:</span>
