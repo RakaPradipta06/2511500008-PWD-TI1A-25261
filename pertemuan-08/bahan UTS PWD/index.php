@@ -52,8 +52,8 @@ endif;
       <p>Ini contoh paragraf HTML.</p>
     </section>
 
-    <section id="Pendaftaran Profil Pengunjung">
-      <h2>Form Pendaftaran</h2>
+    <section id="PendaftaranProfilPengunjung">
+      <h2>Form Pendaftaran Pengunjung</h2>
       <form action="proses.php" method="POST">
 
         <label for="txtNIM"><span>NIM:</span>
@@ -101,8 +101,7 @@ endif;
         <button type="reset">Batal</button>
       </form>
 
-
-
+      
     <section id="about">
       <?php
       $nim = 2511500010;
