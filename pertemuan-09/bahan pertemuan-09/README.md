@@ -12,4 +12,5 @@
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
   <li>mengedit proses php baris 10-19 menjadi bentuk array associative</li>
+  <li>menambahkan suffix di index.php</li>
 </ol>
