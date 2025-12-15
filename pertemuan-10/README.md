@@ -6,4 +6,5 @@
   <li>Menambahkan read.php</li>
   <li>Mencoba mysql</li>
   <li>Menambahkan read_inc.php</li>
+  <li>Mengubah baris 146 index.php menjadi php include</li>
 </ol>
