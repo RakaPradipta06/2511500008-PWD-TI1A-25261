@@ -16,8 +16,8 @@ $q = mysqli_query($conn, $sql);
     <tr>
         <td><?= $row['cid']; ?></td>
         <td><?= htmlspecialchars($row['cnama']); ?></td>
-        <td><?= htmlspecialchars($row['cnemail']); ?></td>
-        <td><?= nl2br(htmlspecialchars($row['cnpesan'])); ?></td>
+        <td><?= htmlspecialchars($row['cemail']); ?></td>
+        <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
 </tr>
 <?php endwhile; ?>
 </table>    
