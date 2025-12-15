@@ -7,4 +7,5 @@
   <li>Mencoba mysql</li>
   <li>Menambahkan read_inc.php</li>
   <li>Mengubah baris 146 index.php menjadi php include</li>
+  <li>Menghapus baris 133 - 141 index.php</li>
 </ol>
