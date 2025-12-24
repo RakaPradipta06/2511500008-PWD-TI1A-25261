@@ -6,3 +6,4 @@ NIM : 2511500008<br>
 <ol>
  <li>import sql bahan praktikum pertemuan-13</li>
  <li>Menambah link delete untuk ke file proses_delete.php</li>
+ <li>mengcopy semua kode proses_update.php ke proses_delete.php</li>
