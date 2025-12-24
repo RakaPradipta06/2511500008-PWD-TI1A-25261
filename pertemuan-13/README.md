@@ -8,4 +8,5 @@ NIM : 2511500008<br>
  <li>Menambah link delete untuk ke file proses_delete.php</li>
  <li>mengcopy semua kode proses_update.php ke proses_delete.php</li>
  <li>mengedit kode proses_delete.php</li>
- <li>menambahkan parameter cid untuk link delete di read.php
+ <li>menambahkan parameter cid untuk link delete di read.php</li>
+ <li>memperbaiki file proses_delete.php agar menggunakan paramaeter cid</li>
