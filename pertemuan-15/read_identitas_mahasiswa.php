@@ -53,7 +53,7 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
             gap: 10px;
         }
         .btn-edit {
-            background-color: #ffc107;
+            background-color: #0fff07ff;
             color: #000;
             padding: 6px 12px;
             border-radius: 4px;
@@ -61,7 +61,7 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
             font-size: 14px;
         }
         .btn-hapus {
-            background-color: #dc3545;
+            background-color: #fd03dcff;
             color: white;
             padding: 6px 12px;
             border-radius: 4px;
@@ -143,8 +143,8 @@ unset($_SESSION['flash_sukses_mhs'], $_SESSION['flash_error_mhs']);
                         <tr>
                             <td><?= $i++; ?></td>
                             <td class="aksi-btn">
-                                <a href="edit_mahasiswa.php?cmid=<?= (int)$row['cmid']; ?>" class="btn-edit">Edit</a>
-                                <a href="neger.php?cmid=<?= (int)$row['cmid']; ?>" 
+                                <a href="edit_identitas_mahasiswa.php?cmid=<?= (int)$row['cmid']; ?>" class="btn-edit">Edit</a>
+                                <a href="delete_identitas_mahasiswa.php?cmid=<?= (int)$row['cmid']; ?>" 
                                    class="btn-hapus" 
                                    onclick="return confirm('Hapus data <?= htmlspecialchars($row['cnama']); ?> (NIM: <?= htmlspecialchars($row['cnim']); ?>)?')">
                                     Hapus

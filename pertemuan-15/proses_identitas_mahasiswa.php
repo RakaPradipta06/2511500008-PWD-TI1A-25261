@@ -68,7 +68,7 @@ if (empty($nama_ortu)) {
 
 # Cek duplikasi NIM
 if (empty($errors)) {
-    $check_nim = "SELECT cmid FROM tbl_mahasiswa WHERE cnim = ?";
+    $check_nim = "SELECT cmid FROM tbl_identitas_mahasiswa WHERE cnim = ?";
     $stmt_check = mysqli_prepare($conn, $check_nim);
     mysqli_stmt_bind_param($stmt_check, "s", $nim);
     mysqli_stmt_execute($stmt_check);
@@ -114,7 +114,7 @@ $_SESSION['biodata'] = [
 ];
 
 # Insert data ke database menggunakan prepared statement
-$sql = "INSERT INTO tbl_mahasiswa (cnim, cnama, ctempat_lahir, ctanggal_lahir, 
+$sql = "INSERT INTO tbl_identitas_mahasiswa (cnim, cnama, ctempat_lahir, ctanggal_lahir, 
         chobi, cpasangan, cpekerjaan, cnama_ortu, cnama_kakak, cnama_adik) 
         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         
