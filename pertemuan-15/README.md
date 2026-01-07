@@ -10,4 +10,5 @@ NIM     : 2511500008<br>
 <li>Menambahkan proses_identitas_mahasiswa<li>
 <li>Menambahkan read_identitas_mahasiswa</li>
 <li>Mengedit index.php</li>
-<li>menambahkan edit_identitas_mahasiswa</li>
+<li>Menambahkan edit_identitas_mahasiswa</li>
+<li>Menambahkan update_identitas_mahasiswa</li>
