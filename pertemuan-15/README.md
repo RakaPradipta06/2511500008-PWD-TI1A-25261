@@ -6,3 +6,4 @@ NIM     : 2511500008<br>
 
 <ol>
 <li>Menambahkan file tryout yang sudah di berikan dan di ekstrak</li>
+<li>Membuat tabel identitas mahasiswa</li>
