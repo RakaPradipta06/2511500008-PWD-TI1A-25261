@@ -9,3 +9,4 @@ Mengerjakan UAS
 <li>Menambahkan file uas yang sudah diberikan ke pertemuan-16 dan di ekstrak</li>
 <li>Membuat tbl_biodata_dosen</li>
 <li>Menambahkan proses_bioadata_dosen</li>
+<li>Menambahkan read_biodata_mahasiswa</li>
