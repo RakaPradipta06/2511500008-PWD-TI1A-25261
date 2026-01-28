@@ -13,3 +13,4 @@ NIM     : 2511500008<br>
 <li>Menambahkan edit_identitas_mahasiswa</li>
 <li>Menambahkan update_identitas_mahasiswa</li>
 <li>Menambahkan delete_identitas_mahasiswa</li>
+<li>Menambahkan tbl_identitas_mahasiswa.sql</li>
